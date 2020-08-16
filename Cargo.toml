@@ -3,13 +3,15 @@ name = "xenctrl-sys"
 version = "0.1.1"
 authors = ["Mathieu Tarral <mathieu.tarral@protonmail.com>"]
 edition = "2018"
-links = "xenctrl"
-repository = "https://github.com/Wenzel/xen-sys"
+description = "Rust FFI bindings for libxenctrl"
 readme = "README.md"
-keywords = ["xen", "introspection"]
-categories = ["external-ffi-bindings"]
-description = "Rust bindings for Xen's xenctrl library"
+homepage = "https://github.com/Wenzel/xenctrl-sys"
+repository = "https://github.com/Wenzel/xenctrl-sys"
 license = "GPL-3.0-only"
+keywords = ["xen", "xenctrl"]
+categories = ["external-ffi-bindings"]
+links = "xenctrl"
+build = "build.rs"
 
 [dependencies]
 
