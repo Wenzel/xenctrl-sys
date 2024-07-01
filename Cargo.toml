@@ -1,6 +1,6 @@
 [package]
 name = "xenctrl-sys"
-version = "0.1.1"
+version = "0.1.2"
 authors = ["Mathieu Tarral <mathieu.tarral@protonmail.com>"]
 edition = "2018"
 description = "Rust FFI bindings for libxenctrl"
@@ -16,4 +16,4 @@ build = "build.rs"
 [dependencies]
 
 [build-dependencies]
-bindgen = "0.51.1"
+bindgen = "0.69.4"
