@@ -18,8 +18,6 @@ fn main() {
         })
         // Disable data layout tests.
         .layout_tests(false)
-        // Run rustfmt on the bindings
-        .rustfmt_bindings(true)
         //initialize structs with default values
         .derive_default(true)
         // Finish the builder and generate the bindings.
